@@ -5,4 +5,3 @@ with open('keywords.csv', 'r') as f:
 
     for keyword in keywords:
         trends.trends(keyword)
-
