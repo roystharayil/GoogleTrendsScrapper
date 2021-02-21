@@ -3,9 +3,18 @@
 '''
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import time
+import time,os
 
-driver = webdriver.Firefox(executable_path="C:\\Users\\DELL\\Downloads\\geckodriver\\geckodriver.exe")
+
+
+fp = webdriver.FirefoxProfile()
+fp.set_preference("browser.download.folderList",2)
+fp.set_preference("browser.download.manager.showhenStarting",False)
+fp.set_preference("browser.download.dir",os.getcwd()+'\data')
+fp.set_preference("browser. download. show_plugins_in_list",False)
+fp.set_preference("browser.helperApps.neverAsk.saveToDisk","text/CSV")
+
+driver = webdriver.Firefox(firefox_profile = fp,executable_path="C:\\Users\\DELL\\Downloads\\geckodriver\\geckodriver.exe") 
 
 
 def trends(keyword):
