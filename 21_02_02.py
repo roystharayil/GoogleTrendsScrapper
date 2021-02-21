@@ -1,8 +1,8 @@
-import 21_02_01
+import trends
 
 with open('keywords.csv', 'r') as f:
     keywords = f.readlines()
 
     for keyword in keywords:
-        trends(keyword)
+        trends.trends(keyword)
 
