@@ -18,3 +18,30 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1613898119992	geckodriver	INFO	Listening on 127.0.0.1:65102
+1613898123061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileR3mzK2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 422))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613898147061	geckodriver	INFO	Listening on 127.0.0.1:65156
+1613898150103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilefp8cKc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613898153334	Marionette	INFO	Listening on port 65165
+1613898153809	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613898153825	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://ssl.gstatic.com/trends_nrtr/2431_RC04/third_parties_min.js, line 4171: Error: [$injector:modulerr] http://errors.angularjs.org/1.6.4-local+sha.617b36117/$injector/modulerr?p0=trendsApp&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.6.4-local%2Bsha.617b36117%2F%24injector%2Fmodulerr%3Fp0%3DngMaterial%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.6.4-local%252Bsha.617b36117%252F%2524injector%252Fnomod%253Fp0%253DngMaterial%250Ava%252F%253C%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4171%253A89%250Adg%252F%253C%252F%253C%252F%253C%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4190%253A111%250Ab%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4189%253A139%250Adg%252F%253C%252F%253C%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4189%253A394%250Af%252F%253C%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4202%253A294%250AI%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4172%253A22%250Af%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4202%253A140%250Af%252F%253C%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4202%253A326%250AI%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4172%253A22%250Af%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4202%253A140%250Agc%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4206%253A244%250Ac%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4186%253A110%250Ale%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4186%253A429%250AZf%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4185%253A87%250A%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4506%253A59%250Ab%2540https%253A%252F%252Fssl.gstatic.com%252Ftrends_nrtr%252F2431_RC04%252Fthird_parties_min.js%253A4198%253A178%250A%0Ava%2F%3C%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4171%3A89%0Af%2F%3C%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4203%3A85%0AI%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4172%3A22%0Af%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4202%3A140%0Af%2F%3C%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4202%3A326%0AI%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4172%3A22%0Af%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4202%3A140%0Agc%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4206%3A244%0Ac%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4186%3A110%0Ale%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4186%3A429%0AZf%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4185%3A87%0A%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4506%3A59%0Ab%40https%3A%2F%2Fssl.gstatic.com%2Ftrends_nrtr%2F2431_RC04%2Fthird_parties_min.js%3A4198%3A178%0A
+1613898181674	Marionette	INFO	Stopped listening on port 65165
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
